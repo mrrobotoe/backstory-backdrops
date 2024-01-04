@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {
   createBrowserRouter,
-  createHashRouter,
+  // createHashRouter,
   RouterProvider,
 } from 'react-router-dom';
 
@@ -18,7 +18,7 @@ import 'blaze-slider/dist/blaze.css'
 import { HomePage } from './ui/routes/HomePage';
 import { BalloonsPage } from './ui/routes/BalloonsPage';
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     element: <RootLayout />,
     errorElement: <>Oops, something happened!</>,
