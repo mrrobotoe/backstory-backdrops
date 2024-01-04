@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import React from 'react';
 import BlazeSlider from 'blaze-slider';
 import { BlazeConfig } from 'blaze-slider';

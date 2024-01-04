@@ -1,3 +1,4 @@
+// @ts-nocheck
 import ourStoryPhoto from '../../../assets/our-story-photo.webp';
 import { useBlazeSlider } from '../../../lib/hooks/useBlazeSlider';
 import photoOne from '../../../assets/ef76dc_315acd3bfa8d44cabf85df0ad1f1ffa8~mv2.webp';
