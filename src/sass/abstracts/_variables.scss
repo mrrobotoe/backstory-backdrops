@@ -1,0 +1,60 @@
+$font-azo-sans: 'azo-sans-web';
+$font-cardea: 'cardea';
+$font-ingra: 'ingra';
+$font-lora: 'lora';
+$font-kiro: 'kiro';
+$font-dejanire: 'dejanire-headline', serif;
+$font-arboria: 'arboria', sans-serif;
+$color-primary-light: hsl(0, 0%, 100%);
+$color-primary-dark: rgba(0, 0, 0, 0.87);
+$color-helper-text: rgba(0, 0, 0, 0.6);
+$color-inactive-text: rgba(0, 0, 0, 0.6);
+$color-disabled-text: rgba(0, 0, 0, 0.38);
+$color-border-outline: rgba(0, 0, 0, 0.1);
+$color-error-text: rgb(161, 0, 0);
+$primary-color-font: $color-primary-dark;
+$ratio: 1.5;
+$s1: clamp(1.25rem, 1.19rem + 0.32vw, 1.41rem);
+$s2: clamp(1.56rem, 1.39rem + 0.85vw, 2rem);
+$s3: clamp(1.95rem, 1.61rem + 1.7vw, 2.83rem);
+$s4: clamp(2.44rem, 1.83rem + 3.04vw, 4rem);
+$s5: clamp(3.05rem, 2.04rem + 5.07vw, 5.65rem);
+$s0: clamp(1rem, 1rem + 0vw, 1rem);
+$s-1: clamp(0.8rem, 0.84rem + -0.18vw, 0.71rem);
+$s-2: clamp(0.64rem, 0.69rem + -0.27vw, 0.5rem);
+$s-3: clamp(0.51rem, 0.57rem + -0.31vw, 0.35rem);
+$s-4: clamp(0.41rem, 0.47rem + -0.31vw, 0.25rem);
+$s-5: clamp(0.33rem, 0.39rem + -0.29vw, 0.18rem);
+$line-height: 1.6;
+$measure: 65ch;
+$border-width: 1px;
+$border-color-light: #8495b9;
+$border-color-dark: #5d73a3;
+$bg-color-dark: #14303f;
+$bg-color-light: #dedede;
+$padding-sm: $s-2;
+$padding-md: $s0;
+$padding-lg: $s1;
+$margin-sm: $s-2;
+$margin-md: $s0;
+$margin-lg: $s1;
+$nav-height: $s5;
+$shadow-color: 349deg 52% 32%;
+$shadow-elevation-low:
+  0.3px 0.5px 0.7px hsl(349deg 52% 32% / 0.34),
+  0.4px 0.8px 1px -1.2px hsl(349deg 52% 32% / 0.34),
+  1px 2px 2.5px -2.5px hsl(349deg 52% 32%/ 0.34);
+$shadow-elevation-medium:
+    0.3px 0.5px 0.7px hsl(349deg 52% 32% / 0.36),
+    0.8px 1.6px 2px -0.8px hsl(349deg 52% 32% / 0.36),
+    2.1px 4.1px 5.2px -1.7px hsl(349deg 52% 32% / 0.36),
+    5px 10px 12.6px -2.5px hsl(349deg 52% 32% / 0.36);
+$shadow-elevation-high:
+  0.3px 0.5px 0.7px hsl(349deg 52% 32% / 0.34),
+  1.5px 2.9px 3.7px -0.4px hsl(349deg 52% 32% / 0.34),
+  2.7px 5.4px 6.8px -0.7px hsl(349deg 52% 32% / 0.34),
+  4.5px 8.9px 11.2px -1.1px hsl(349deg 52% 32% / 0.34),
+  7.1px 14.3px 18px -1.4px hsl(349deg 52% 32% / 0.34),
+  11.2px 22.3px 28.1px -1.8px hsl(349deg 52% 32% / 0.34),
+  17px 33.9px 42.7px -2.1px hsl(349deg 52% 32% / 0.34),
+  25px 50px 62.9px -2.5px hsl(349deg 52% 32% / 0.34);
